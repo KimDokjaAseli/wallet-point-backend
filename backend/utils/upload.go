@@ -12,7 +12,7 @@ import (
 
 const (
 	MaxUploadSize = 10 << 20 // 10MB
-	UploadDir     = "uploads"
+	UploadDir     = "public/uploads"
 )
 
 func HandleFileUpload(c *gin.Context) {
