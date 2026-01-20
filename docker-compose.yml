@@ -51,6 +51,12 @@ services:
       DB_USER: '${MYSQL_USER}'
       DB_PASSWORD: '${MYSQL_PASSWORD}'
       DB_NAME: wallet_point
+
+      JWT_SECRET: '${JWT_SECRET}'
+      JWT_EXPIRY_HOURS: '${JWT_EXPIRY_HOURS}'
+      ALLOWED_ORIGINS: '${ALLOWED_ORIGINS}'
+      MAX_UPLOAD_SIZE: '${MAX_UPLOAD_SIZE}'
+      UPLOAD_PATH: '${UPLOAD_PATH}'
     ports:
       - "8102:8102"
 
