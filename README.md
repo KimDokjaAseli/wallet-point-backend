@@ -1,1 +1,1 @@
-FE https://github.com/kimDokjaAseli/frontend-wallet-point
+FE https://github.com/kimDokjaAseli/wallet-point-frontend
